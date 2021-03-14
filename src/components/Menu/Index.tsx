@@ -12,10 +12,13 @@ import { DrawerNavigationProp } from '@react-navigation/drawer';
 
 
 
+
 export default function Menu(){
     const navigation: DrawerNavigationProp<any> = useNavigation();
     
+   
 
+    
     return(
         <TouchableOpacity 
         style={styles.container}
