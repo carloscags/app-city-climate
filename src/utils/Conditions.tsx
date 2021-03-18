@@ -1,7 +1,7 @@
 
 
 
-export function condition(condition : 'storm' | 'clear_day' | 'rain') : iconConditions | undefined{
+export function condition(condition : string) : iconConditions | undefined {
     let icon = null
 
     switch(condition){
