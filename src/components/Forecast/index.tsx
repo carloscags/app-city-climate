@@ -31,7 +31,7 @@ interface Data {
    min: number;
    max: number;
    description: string;
-   condition: string;
+   condition: string ;
 
 }
 
